@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    /*
+    Could not find a clear ES target but as of 2024-02-16, 
+    ES2020 nullish coalescing operator is handled by V8 runtimes,
+    ES2021 logical assignment operators and numeric separators
+    are not.
+    */
+    "target": "ES2020",
+    "strictNullChecks": true
+  }
+}
