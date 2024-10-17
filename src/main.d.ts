@@ -1,6 +1,6 @@
 type FileParams = { fileName: string } | { fileId: string };
 
-type CellValue = string | boolean;
+type CellValue = string | boolean | number;
 
 type SaveParams = FileParams & { values: CellValue[][], range: string };
 type Save = (params: SaveParams) => void
